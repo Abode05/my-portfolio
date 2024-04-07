@@ -35,7 +35,8 @@ export const myProjects = [
   {
     projectTitle: "node",
     category: ["node"],
-    imgPath: "",
+    imgPath: "robot.jpg",
+     url:"/"
   },
  
 
