@@ -9,7 +9,7 @@ export const myProjects = [
     projectTitle: "GPT-4 ",
     category: ["react"],
     imgPath: "gpt.png",
-    url:"/"
+    url:"/",
 
   },
   {
