@@ -1,28 +1,35 @@
 export const myProjects = [
   {
-    projectTitle: "react project",
+    projectTitle: "brain wave",
     category: ["react"],
     imgPath: "service-3.png",
+    url:"/"
   },
   {
-    projectTitle: "react ",
+    projectTitle: "GPT-4 ",
     category: ["react"],
     imgPath: "gpt.png",
+    url:"/"
+
   },
   {
-    projectTitle: "node",
+    projectTitle: "portfolio",
     category: ["react"],
-    imgPath: "",
+    imgPath: "aboode.jpg",
+     url:"https://my-portfolio-five-jade-15.vercel.app"
   },
   {
     projectTitle: "node",
     category: ["node"],
-    imgPath: "",
+    imgPath: "robot.jpg",
+     url:"/"
+
   },
   {
-    projectTitle: "js",
+    projectTitle: "javascript",
     category: ["js"],
-    imgPath: "",
+    imgPath: "gpt.png",
+     url:"/"
   },
  
   {
@@ -32,30 +39,5 @@ export const myProjects = [
   },
  
 
-  // {
-  //   projectTitle: "javaScript project",
-  //   category: ["js"],
-  //   imgPath: ""
-  // },
-  // {
-  //   projectTitle: "javaScript project",
-  //   category: ["js"],
-  //   imgPath: "gpt.png",
-  // },
-  // {
-  //   projectTitle: "node project",
-  //   category: ["node"],
-  //   imgPath: "./images/7.jpg",
-  // },
-
-  {
-    projectTitle: "javaScript project",
-    category: ["js"],
-    imgPath: "service-3.png",
-  },
-  {
-    projectTitle: "javaScript project",
-    category: ["js"],
-    imgPath: "service-3.png",
-  },
+  
 ];

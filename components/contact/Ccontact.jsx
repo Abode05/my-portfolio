@@ -35,12 +35,12 @@ const Contact = () => {
               <div className='space-y-8'>
                   <div className='flex items-center space-x-5 justify-center'>
                       <PhoneIcon className='text-[#f7abba] h-7 w-7  animate-pulse' />
-                      <p className='text-2xl'>+9630585565965</p>
+                      <p className='text-2xl'>+963 946 443 679</p>
                   </div>
 
                   <div className='flex items-center space-x-5 justify-center'>
                       <EnvelopeIcon className='text-[#f7abba] h-7 w-7  animate-pulse' />
-                      <p className='text-2xl'>abdullatif sal@gmail.com</p>
+                      <p className='text-2xl'>abdullatifsalaas@gmail.com</p>
                   </div>
 
                   <div className='flex items-center space-x-5 justify-center'>

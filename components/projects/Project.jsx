@@ -1,8 +1,10 @@
 'use client';
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import "./main.css";
 import { myProjects } from "./myProjects";
 import { AnimatePresence, motion } from "framer-motion";
+import Link from 'next/link'
+
 
 const Project = () => {
   const [currentActive, setcurrentActive] = useState("all");
@@ -53,7 +55,7 @@ const Project = () => {
           }}
           className={`${currentActive === "react" ? "active" : null}`}
         >
-          React & MUI
+          React & UI
         </button>
         <button
           onClick={() => {
@@ -94,7 +96,7 @@ const Project = () => {
                       <div className="icon-github"></div>
                     </div>
 
-                    <a className="link flex" href="">
+                    <a className="link flex" href={item.url}   >
                        visit website
                       <span
                         style={{ alignSelf: "end" }}
