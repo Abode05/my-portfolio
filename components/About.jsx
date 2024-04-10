@@ -34,9 +34,9 @@ const About = () => {
           x: 0,
           opacity:1 
         }}
-        viewport={{once:true}}
+        viewport={{once:false}}
         className='-mb-20 md:mb-0  h-56 w-56   flex-shrink-0  rounded-full object-cover
-         md:rounded-lg md:w-64 md:h-95 xl:w-[500px] xl:h-[500px] xl:object-cover xl:mt-8
+         md:rounded-lg md:w-64 md:h-95 xl:w-[500px] xl:h-[500px] xl:object-cover xl:mt-12
         '
       src="abd22.jpg"
       />

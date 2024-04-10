@@ -20,8 +20,8 @@ const Contact = () => {
 //   const [state, handleSubmit] = useForm("xrgvvdlo");
 
   return (
-    <div className='  flex flex-col  relative  text-center md:text-left md:flex-row max-w-7xl
-    justify-evenly mx-auto items-center z-0  top-12 mb-40  '>
+    <div className='  flex flex-col  relative  text-center md:text-left md:flex-row max-w-6xl
+    justify-evenly mx-auto items-center z-0  top-24 max-sm:min-w-max  '>
           <h3 className='absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl xl:top-20 '>
               contact me
           </h3>

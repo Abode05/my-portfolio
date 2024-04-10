@@ -10,17 +10,17 @@ import Image from "next/image";
 
 export default function page() {
   return (
-    <div className="bg-zinc-800 text-white h-screen snap-y snap-mandatory overflow-y-scroll overflow-x-hidden z-0
+    <div className="bg-zinc-800 text-white snap-y snap-mandatory overflow-y-hidden overflow-x-hidden z-0
     scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#f7abba]/80
     ">
     
         <Header />
-           <section id="about" className="snap-start">
+           <section id="about" className="snap-start ">
 
           <Hero/>
 
         </section>
-      <section id="abouts" className="snap-center">
+      <section id="abouts" className="snap-center ">
           <About/>
         </section>
         <section id="skills" className="snap-start">

@@ -26,7 +26,7 @@ const Project = () => {
   
   return (
     <main className="flex relative top-24 ">
-         <h3 className='absolute top-0 left-[43%] uppercase tracking-[20px] text-gray-500 text-2xl'>Project</h3>
+         <h3 className='absolute  xl:left-[41%] uppercase tracking-[20px] text-gray-500 text-2xl'>Project</h3>
       <section className="flex  left-section mt-16 ml-6   ">
         
         <button
