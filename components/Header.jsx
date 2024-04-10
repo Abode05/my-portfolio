@@ -22,10 +22,10 @@ const Header = () => {
                 }}
                 className='flex flex-row items-center'>
      
-                <SocialIcon url="https://facebook.com" bgColor="transparent" fgColor="gray" />
+                <SocialIcon url="https://www.facebook.com/abdulatif.ssa?mibextid=ZbWKwL" bgColor="transparent" fgColor="gray" />
                 <SocialIcon url="https://github.com/Abode05" bgColor="transparent" fgColor="gray" />
                 <SocialIcon url="https://linkedin.com/in/couetilc" bgColor="transparent" fgColor="gray" />
-                <SocialIcon url="www.instagram.com" bgColor="transparent" fgColor="gray" />
+                <SocialIcon url="https://www.instagram.com/abodee_05?igsh=NnQ5anF3bzNmbWN6" bgColor="transparent" fgColor="gray" />
             </motion.div>
 
                 <Link href="#contact">

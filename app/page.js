@@ -3,10 +3,9 @@ import About from "@/components/About";
 import Header from "@/components/Header";
 import Contact from "@/components/contact/Ccontact";
 import Hero from "@/components/hero/Hero";
-import Projects from "@/components/project/Projects";
+// import Projects from "@/components/project/Projects";
 import Skills from "@/components/skills/Skills";
-import WorkExperience from "@/components/workExperience/WorkExperience";
-import Image from "next/image";
+// import WorkExperience from "@/components/workExperience/WorkExperience";
 
 export default function page() {
   return (
@@ -15,12 +14,12 @@ export default function page() {
     ">
     
         <Header />
-           <section id="about" className="snap-start ">
+           <section id="about" className="snap-start h-screen">
 
           <Hero/>
 
         </section>
-      <section id="abouts" className="snap-center ">
+      <section id="abouts" className="snap-center">
           <About/>
         </section>
         <section id="skills" className="snap-start">
