@@ -47,9 +47,9 @@ const Contact = () => {
               
       
               <form onSubmit={handleSubmit(onSubmit)} className='flex flex-col space-y-2  mx-auto md:w-fit  max-[620px]:w-screen  '>
-                  <div className='flex space-x-2 max-[620px]:flex-col space-y-2' >
-                      <input  {...register("firstName", { required: true, maxLength: 20 })}    placeholder='Name' className='contactInput  max-[620px]:row '    type='text' />
-                         <input  {...register("lastName", { pattern: /^[A-Za-z]+$/i })} placeholder='last name' className='contactInput' type='text' />
+                  <div className='flex space-x-2 max-[620px]:flex-col max-[620px]:space-y-2' >
+                      <input  {...register("firstName", { required: true, maxLength: 20 })}    placeholder='Name' className='contactInput'    type='text' />
+                      <input  {...register("lastName", { pattern: /^[A-Za-z]+$/i })} placeholder='last name' className='contactInput ' type='text' />
                       
                   </div>
                  
