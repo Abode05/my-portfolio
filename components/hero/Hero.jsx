@@ -17,7 +17,7 @@ const Hero = () => {
      })
     
     return (
-        <div className='h-screen flex  flex-col space-y-8 justify-center items-center text-center overflow-hidden'>
+        <div className='h-screen flex  flex-col space-y-8 justify-center items-center text-center overflow-hidden '>
               <Backgroundcircle />
             <img
                 className='relative rounded-full h-40 w-40 mx-auto object-cover     '

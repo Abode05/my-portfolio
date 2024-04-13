@@ -13,10 +13,10 @@ const Skills = () => {
       <h3 className='absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl'>Skills</h3>
           
           <h3 className='absolute top-36 uppercase tracking-[3px] text-gray-500 text-sm'>
-              hovor over a skills curruncy profiency
+              hovor over a skills to show skill by  percent
           </h3>
 
-      <div className='grid grid-cols-2 gap-8 mt-40 xl:grid-cols-4 md:grid-cols-3 max-sm:grid-cols-2 xl:mt-20 max-[620px]:grid-cols-2 '>
+      <div className='grid grid-cols-2 gap-8 mt-40 xl:grid-cols-4 md:grid-cols-3 max-sm:grid-cols-2 xl:mt-20 max-[620px]:grid-cols-1 '>
         {myskills.map((item,index) => (
           <div key={index}>
              <Skill items={item.percent} image={item.img} myskill={item.name}/> 
