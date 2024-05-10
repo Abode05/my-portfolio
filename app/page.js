@@ -33,7 +33,7 @@ export default function page() {
         {/* <section id="experience" className="snap-center">
           <WorkExperience/>
         </section> */}
-        <section id="contact" className="snap-center ">
+        <section id="contact" className="snap-center mb-24">
           <Contact/>
         </section>
           

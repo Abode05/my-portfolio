@@ -25,16 +25,16 @@ const Project = () => {
   };
   
   return (
-    <main className="flex relative top-24 ">
-         <h3 className='absolute  xl:left-[41%] uppercase tracking-[20px] text-gray-500 text-2xl'>Project</h3>
-      <section className="flex  left-section mt-16 ml-6   ">
+    <main className="flex relative top-20 ">
+      <h3 className='absolute text-center   w-screen uppercase tracking-[15px] text-gray-500 text-2xl font-bold'>projects</h3>
+      <section className="flex  left-section mt-16 md:ml-16  z-10  flex-wrap ">
         
         <button
           onClick={() => {
             setcurrentActive("all");
             setArr(myProjects);
           }}
-          className={`${currentActive === "all" ? "active" : null}`}
+          className={`${currentActive === "all" ? "active" : null} `}
         >
           all projects
         </button>
@@ -66,12 +66,13 @@ const Project = () => {
           Node & Express
         </button>
       </section>
-   <div className='w-full absolute top-[32%] bg-[#f7abba]/10 left-0 h-[500px] -skew-y-12 ' />
-      <section className=" flex right-section mt-20">
+   <div className='w-full absolute top-16 bg-[#f7abba]/10 left-0 h-[500px] -skew-y-12 ' />
+      <section className=" flex right-section mt-10 md:mt-20">
         <AnimatePresence>
           {arr.map((item,index) => {
             return (
-              <motion.article
+              <Link href={item.url}>
+                <motion.article
                 layout
                 
                 initial={{ transform: "scale(0.4)" }}
@@ -90,22 +91,9 @@ const Project = () => {
                     tempore dolor in, accusantium laudantium accusamus.
                   </p>
 
-                  <div className="flex icons">
-                    <div style={{ gap: "11px" }} className="flex">
-                      <div className="icon-link"></div>
-                      <div className="icon-github"></div>
-                    </div>
-
-                    <a className="link flex" href={item.url}   >
-                       visit website
-                      <span
-                        style={{ alignSelf: "end" }}
-                        className="icon-arrow-right"
-                      ></span>
-                    </a>
-                  </div>
                 </div>
-              </motion.article>
+                </motion.article>
+              </Link>
             );
           })}
         </AnimatePresence>

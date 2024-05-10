@@ -41,6 +41,7 @@ export const myskills = [
        img: "tailwind.svg",
        name:"laravel"
     },
+   
 
 
   
