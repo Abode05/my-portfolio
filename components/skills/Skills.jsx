@@ -16,7 +16,7 @@ const Skills = () => {
               hovor over a skills to show skill  percent experince
           </h3>
 
-      <div className='grid grid-cols-2 gap-8 mt-[180px] xl:grid-cols-4 md:grid-cols-3 max-sm:grid-cols-2 xl:mt-20   '>
+      <div className='grid grid-cols-2 gap-8 mt-[180px] xl:grid-cols-4 md:grid-cols-3  xl:mt-20   '>
         {myskills.map((item,index) => (
           <div key={index}>
              <Skill items={item.percent} image={item.img} myskill={item.name}/> 
