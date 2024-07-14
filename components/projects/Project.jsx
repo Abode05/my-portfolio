@@ -75,7 +75,7 @@ const Project = () => {
                 className=" card "
                
               >
-                <img width={266}  src={item.imgPath} alt="" className="h-[14rem] object-contain" />
+                <img width={266}  src={item.imgPath} alt="" className="h-[14rem] object-contain w-full " />
 
                 <div style={{ width: "266px" }} className="box">
                   <h1 className="title">{item.projectTitle}</h1>
