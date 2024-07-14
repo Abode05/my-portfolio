@@ -57,14 +57,7 @@ const Project = () => {
         >
           React & UI
         </button>
-        <button
-          onClick={() => {
-            handleClick("node");
-          }}
-          className={`${currentActive === "node" ? "active" : null}`}
-        >
-          Node & Express
-        </button>
+   
       </section>
    <div className='w-full absolute top-16 bg-[#f7abba]/10 left-0 h-[500px] -skew-y-12 ' />
       <section className=" flex right-section mt-10 md:mt-20">
@@ -87,8 +80,7 @@ const Project = () => {
                 <div style={{ width: "266px" }} className="box">
                   <h1 className="title">{item.projectTitle}</h1>
                   <p className="sub-title">
-                    Lorem ipsum dolor sit amet consectetur elit adipisicing . Ex
-                    tempore dolor in, accusantium laudantium accusamus.
+                    {item.desc}
                   </p>
 
                 </div>
