@@ -10,9 +10,9 @@ const Skills = () => {
     <motion.div className=' flex flex-col relative text-center md:text-left md:flex-row
       max-w-[2000px] xl:px-10 min-h-screen justify-center mx-auto items-center xl:space-y-0-0'>
           
-      <h3 className='absolute top-14 uppercase tracking-[20px] text-gray-500 text-2xl font-bold'>Skills</h3>
+      <h3 className='absolute top-14 uppercase tracking-[20px] text-[#7251a8]  font-serif text-2xl font-bold'>Skills</h3>
           
-          <h3 className='absolute top-[125px]  uppercase tracking-[3px] text-gray-500 text-sm'>
+          <h3 className='absolute top-[125px]  uppercase tracking-[3px] text-[#bcb5c7] text-xs font-semibold'>
               hovor over a skills to show skill  percent experince
           </h3>
 
