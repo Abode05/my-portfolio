@@ -24,7 +24,7 @@ const Project = () => {
   }
 
   return (
-    <main className="flex flex-col items-center gap-10 mt-52 top-40 bg-zinc-800 px-4 relative mb-40">
+    <main className="flex flex-col items-center gap-10 mt-24 top-24 bg-zinc-800 px-4 relative mb-40">
       <h3 className="absolute text-center top-16 uppercase tracking-[15px] text-[#8b4ad4] font-bold font-serif text-2xl ">
         Projects
       </h3>
