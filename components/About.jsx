@@ -18,7 +18,7 @@ const About = () => {
          
           opacity:1 
         }}
-        className=' uppercase tracking-[20px] text-gray-500 text-2xl text-center mt-12 '> About</motion.h3>
+        className=' uppercase tracking-[20px] text-[#7251a8]  font-serif text-2xl text-center mt-12 '> About</motion.h3>
       
      <div className=' flex flex-col relative text-center md:text-left md:flex-row
       max-w-7xl justify-evenly mx-auto items-center gap-15 py-4
