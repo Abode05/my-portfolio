@@ -14,7 +14,7 @@ const Contact = () => {
   }
 
   return (
-    <div className="flex flex-col relative top-32 lg:top-24  text-center md:text-left md:flex-row max-w-6xl justify-evenly mx-auto items-center z-0 pt-20 pb-8 px-4  mb-52 mt-24 lg:mt-8">
+    <div className="flex flex-col relative top-24 lg:top-24  text-center md:text-left md:flex-row max-w-6xl justify-evenly mx-auto items-center z-0 pt-20 pb-8 px-4  mb-52 mt-20 lg:mt-8">
       <h3 className="absolute top-16 md:top-14 uppercase tracking-[20px] text-[#7251a8]  font-serif text-2xl font-bold">
         Contact Me
       </h3>
