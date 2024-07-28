@@ -14,12 +14,12 @@ const Contact = () => {
   }
 
   return (
-    <div className="flex flex-col relative top-24  text-center md:text-left md:flex-row max-w-6xl justify-evenly mx-auto items-center z-0 pt-20 pb-8 px-4  mb-52 mt-64 lg:mt-12">
-      <h3 className="absolute top-16 md:top-14 uppercase tracking-[20px] text-gray-500 text-2xl font-bold">
+    <div className="flex flex-col relative top-24  text-center md:text-left md:flex-row max-w-6xl justify-evenly mx-auto items-center z-0 pt-20 pb-8 px-4  mb-52 mt-32 lg:mt-8">
+      <h3 className="absolute top-16 md:top-14 uppercase tracking-[20px] text-[#7251a8]  font-serif text-2xl font-bold">
         Contact Me
       </h3>
 
-      <div className="flex flex-col space-y-8 mt-28 md:mt-32">
+      <div className="flex flex-col space-y-8 mt-28 md:mt-32 text-[#bcb5c7]">
         <h4 className="text-3xl font-semibold text-center">
           I have just what you need.{' '}
           <span className="decoration-[#f7abba]/50 underline">Let's talk</span>
@@ -70,7 +70,7 @@ const Contact = () => {
           />
           <button
             type="submit"
-            className="bg-[#f7abba] py-5 px-10 rounded-md text-black font-bold text-lg"
+            className="bg-[#7251a8] py-5 px-10 rounded-md text-black font-bold text-lg"
           >
             Submit
           </button>
