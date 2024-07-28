@@ -83,7 +83,7 @@ const Project = () => {
                   alt=""
                   className="object-fill  w-full h-56 rounded-t-md"
                 />
-                <div className="p-4 flex flex-col justify-between h-48 text-white">
+                <div className="p-4 flex flex-col justify-between h-52 text-white">
                   <div>
                     <h1 className="text-xl capitalize">{item.projectTitle}</h1>
                     <p className="text-sm mt-2 mb-4 w">{item.desc}</p>
